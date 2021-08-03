@@ -70,16 +70,36 @@ body {
 }
 
 .header__box-img {
-  width: 40%;
+  cursor: pointer;
+}
+
+.header__box-img_search {
+  width: 80%;
+  padding-bottom: 4px;
+}
+
+.header__box-img_cart {
+  width: 50%;
+  padding-bottom: 4px;
+}
+
+.header__box-img_user {
+  margin-left: -25px;
 }
 
 .header__box-span {
   font-size: 13px;
 }
 
+.header__box-span_user {
+  margin-right: 30px;
+  margin-left: -20px;
+  font-size: 13px;
+}
+
 .header__subtitle {
-  margin-left: 130px;
-  margin-top: 400px;
+  margin-left: 78px;
+  margin-top: 352px;
   width: 220px;
   height: 25px;
   text-align: center;
@@ -90,15 +110,16 @@ body {
 }
 
 .header__title {
-  padding-left: 130px;
+  padding-left: 78px;
   font-size: 35px;
   padding-top: 5px;
 }
 
 .header__text {
-  padding-left: 130px;
-  padding-top: 7px;
+  padding-left: 78px;
+  padding-top: 10px;
   font-size: 22px;
+  letter-spacing: -.03em;
 }
 
 nav {
@@ -116,7 +137,7 @@ nav {
 .logo__img {
   max-width: 108px;
   width: 100%;
-  margin-left: 82px;
+  margin-left: 72px;
   margin-bottom: 2px;
 }
 
@@ -136,7 +157,7 @@ nav {
 }
 
 .home__link {
-  padding-left: 13px;
+  padding-left: 19px;
   padding-bottom: 5px;
   font-size: 17px;
   font-weight: 700;
@@ -151,7 +172,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 22px;
+  padding-left: 8px;
   padding-top: 5px;
 }
 
@@ -160,13 +181,13 @@ nav {
 }
 
 .menu__item {
-  padding-left: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .menu__link {
+  padding-left: 12px;
   font-size: 13px;
 }
 
@@ -211,7 +232,7 @@ nav {
 }
 
 .all-menu {
-  padding-left: 183px;
+  padding-left: 145px;
   padding-top: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,48 +253,18 @@ nav {
   .header__box-span {
     display: none;
   }
-  .header__box-img {
-    width: 75%;
-  }
-  .all-menu {
-    padding-left: 230px;
-  }
-  .header__subtitle {
-    margin-left: 90px;
-    margin-top: 395px;
+  .header__box-span_user {
+    display: none;
   }
   .header__title {
-    padding-left: 90px;
     font-size: 24px;
   }
   .header__text {
-    padding-left: 90px;
     font-size: 15px;
   }
 }
 
-@media (max-width: 1320px) {
-  .all-menu {
-    padding-left: 180px;
-  }
-}
-
-@media (max-width: 1265px) {
-  .all-menu {
-    padding-left: 118px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .all-menu {
-    padding-left: 90px;
-  }
-}
-
 @media (max-width: 1175px) {
-  .header__subtitle {
-    margin-top: 350px;
-  }
   #menu__item-4 {
     display: none;
   }
@@ -421,7 +412,7 @@ nav {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 760px) {
   .header__title {
     display: none;
   }

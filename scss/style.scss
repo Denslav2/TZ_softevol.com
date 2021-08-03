@@ -53,18 +53,37 @@ body {
         }
 
         &-img {
-            width: 40%;
             cursor: pointer;
+
+            &_search {
+                width: 80%;
+                padding-bottom: 4px;
+            }
+
+            &_cart {
+                width: 50%;
+                padding-bottom: 4px;
+            }
+
+            &_user {
+                margin-left: -25px;
+            }
         }
 
         &-span {
             font-size: 13px;
+
+            &_user {
+                margin-right: 30px;
+                margin-left: -20px;
+                font-size: 13px;
+            }
         }
     }
 
     &__subtitle {
-        margin-left: 130px;
-        margin-top: 400px;
+        margin-left: 78px;
+        margin-top: 352px;
         width: 220px;
         height: 25px;
         text-align: center;
@@ -75,15 +94,16 @@ body {
     }
 
     &__title {
-        padding-left: 130px;
+        padding-left: 78px;
         font-size: 35px;
         padding-top: 5px;
     }
 
     &__text {
-        padding-left: 130px;
-        padding-top: 7px;
+        padding-left: 78px;
+        padding-top: 10px;
         font-size: 22px;
+        letter-spacing: -.03em;
     }
 }
 
@@ -99,7 +119,7 @@ nav {
     &__img {
         max-width: 108px;
         width: 100%;
-        margin-left: 82px;
+        margin-left: 72px;
         margin-bottom: 2px;
     }
 }
@@ -117,7 +137,7 @@ nav {
     }
 
     &__link {
-        padding-left: 13px;
+        padding-left: 19px;
         padding-bottom: 5px;
         font-size: 17px;
         font-weight: 700;
@@ -131,7 +151,7 @@ nav {
 
 .menu {
     display: flex;
-    padding-left: 22px;
+    padding-left: 8px;
     padding-top: 5px;
 
     &:first-child {
@@ -139,11 +159,12 @@ nav {
     }
 
     &__item {
-        padding-left: 9px;
+
         display: flex;
     }
 
     &__link {
+        padding-left: 12px;
         font-size: 13px;
 
         &:hover {
@@ -189,7 +210,7 @@ nav {
 }
 
 .all-menu {
-    padding-left: 183px;
+    padding-left: 145px;
     padding-top: 5px;
     display: flex;
 

@@ -2,54 +2,23 @@
 @media (max-width:1400px) {
     .header__box-span {
         display: none;
-    }
 
-    .header__box-img {
-        width: 75%;
-    }
-
-    .all-menu {
-        padding-left: 230px;
-    }
-
-    .header__subtitle {
-        margin-left: 90px;
-        margin-top: 395px;
+        &_user {
+            display: none;
+        }
     }
 
     .header__title {
-        padding-left: 90px;
         font-size: 24px;
     }
 
     .header__text {
-        padding-left: 90px;
         font-size: 15px;
     }
 }
 
-@media (max-width:1320px) {
-    .all-menu {
-        padding-left: 180px;
-    }
-}
-
-@media (max-width:1265px) {
-    .all-menu {
-        padding-left: 118px;
-    }
-}
-
-@media (max-width:1200px) {
-    .all-menu {
-        padding-left: 90px;
-    }
-}
 
 @media (max-width:1175px) {
-    .header__subtitle {
-        margin-top: 350px;
-    }
 
     #menu__item-4 {
         display: none;
@@ -150,17 +119,20 @@
             &-btn {
                 padding-left: 25px;
                 cursor: pointer;
+
                 span {
                     display: block;
                     width: 20px;
                     height: 2px;
                     background-color: rgb(0, 0, 0);
                     margin: 5px 0;
-                    &:first-child{
+
+                    &:first-child {
                         margin: 4px 0;
                         height: 0.5px;
                     }
-                    &:last-child{
+
+                    &:last-child {
                         margin: 2px 0;
                         height: 0.5px;
                     }
@@ -182,29 +154,35 @@
     .logo__img {
         margin-left: 0;
     }
-    .mobile-home{
+
+    .mobile-home {
         display: flex;
-        align-items:center;
+        align-items: center;
         height: 35px;
         background-color: #fff;
         border-bottom: 1px solid rgb(218, 218, 218);
         padding-left: 20px;
-        .checkmark{
+
+        .checkmark {
             margin-top: 10px;
         }
-        &__link{
+
+        &__link {
             font-weight: 600;
         }
     }
 }
-@media (max-width:320px){
-    .header__title{
+
+@media (max-width:760px) {
+    .header__title {
         display: none;
     }
-    .header__subtitle{
+
+    .header__subtitle {
         display: none;
     }
-    .header__text{
+
+    .header__text {
         display: none;
     }
 }
